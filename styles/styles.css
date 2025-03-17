@@ -1,0 +1,341 @@
+/* external CSS */
+
+.logo{
+    float:left; 
+    margin-right: 10px; 
+}
+
+header{
+    background-image: url(../images/headerimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    color: #8E8E8E;
+    text-align: left;
+    padding-top: 2px;
+}
+
+header h1{
+    color: darkblue;
+}
+
+body{
+    font-family: Georgia;
+    background-color: cornflowerblue;
+}
+
+nav{
+    background-color: lightgray;
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+        list-style-type: none;
+        background-color: lightskyblue;
+        display: inline;
+        padding: 15px;
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+background-color: darkorange;
+}
+
+#active{
+    
+    background-color: darkblue;
+}
+
+h4{
+    color: black;
+}
+
+.colDetail {
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+    padding-bottom: 10px;
+}
+
+.plain{
+    text-decoration: none;
+    color: chocolate;
+}
+
+#scroll {
+    height: 450px;
+    overflow: auto;
+    border: 1px solid darkorange;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.centerImage{
+    text-align: center;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.textLeft{
+    text-align: left;
+}
+
+.videoContent {
+    float: left;
+    width: 49%;
+    text-align: center;
+    height: 700px;
+}
+
+.contentRight {
+    float: right;
+    width: 49%;
+    text-align: left;
+    height: 700px;
+}
+
+.colDetail {
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+.applicationForm{
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 50px;
+    border: solid darkorange;
+    min-height: 500px;
+}
+
+.required{
+    font-weight: bold;
+    color: red;
+}
+
+label{
+    float: left;
+    width: 200px;
+    text-align: left;
+    
+}
+
+input{
+    margin-left: 1em;
+    margin-bottom: 2em;
+    width: 220px;
+}
+
+input[type="radio"] {
+    width: 15px;
+}
+
+#message, #vet_address, #info_other_pets, #info_children{
+    margin-bottom: 2em;
+}
+
+#button, #reset{
+    margin-top: .5em;
+    width: 8em;
+    background-color: darkorange;
+    border: 2px solid cornflowerblue;
+}
+
+#button{
+    margin-left: 200px;
+}
+
+.map {
+    float: left;
+    width: 49%;
+    text-align: center;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: solid darkorange;
+    height: 661.5px;
+   
+}
+
+.address {
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: solid darkorange;
+    float: right;
+    width: 49%;
+    text-align: center;
+}
+
+.openingHours {
+    background-color: white;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: solid darkorange;
+    float: right;
+    width: 49%;
+    text-align: left;
+}
+
+
+
+
+
+/*#content{
+    float: left;
+    width: 80%;
+    border: 1px solid pink;
+    text-align: justify;
+}
+
+#bigPic {
+    height: 700px;
+    width: 100%
+}
+
+#scroll {
+    height: 500px;
+    overflow: auto;
+}
+
+.white
+{
+    color: white;
+    text-align: center;
+}
+
+aside{
+    width: 19.7%;
+    float: right;
+    color: white;
+    border: 1px solid red;
+}
+
+aside ul li{
+    list-style-type: none;
+}
+
+aside ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+.textLeft{
+    color: white;
+    text-align: left;
+
+
+}
+
+.image {
+    float: left;
+    padding-right: 5px;
+}
+
+h3{
+    color: white;
+}
+
+
+
+p{
+    color: white;
+}
+
+.centered {
+    color: white;
+    text-align: center;
+    border: 1px solid purple;
+}
+
+.videoContent {
+    float: left;
+    width: 49.5%;
+    border: 1px solid gold;
+    text-align: center;
+    height: 500px;
+}
+
+.black{
+    color: black;
+}
+
+.bacon {
+    background-image: url(../images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: left;
+    border: 1px solid purple;
+}
+
+.carrots {
+    background-image: url(../images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: left;
+    border: 1px solid purple;
+}
+
+.eggs {
+    background-image: url(../images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: left;
+    border: 1px solid purple;
+}*/
+
+footer {
+    clear: both;
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid darkorange;
+}
+
+footer ul{
+    text-align: center;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+}
+
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+footer p{
+    color: black;
+}
+
+
+
+
+
