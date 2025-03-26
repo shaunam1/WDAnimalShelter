@@ -15,6 +15,11 @@ header{
     padding-top: 2px;
 }
 
+header h4{
+    color: darkorange;
+    font-style: italic;
+}
+
 header h1{
     color: darkblue;
 }
@@ -27,6 +32,7 @@ body{
 nav{
     background-color: lightgray;
     padding: 5px;
+    
 }
 
 nav ul{
@@ -49,12 +55,13 @@ nav ul li a{
 }
 
 nav ul li:hover{
-background-color: darkorange;
+    background-color: darkorange;
 }
 
 #active{
     
-    background-color: darkblue;
+    background-color: white;
+    font-weight: bold;
 }
 
 h4{
@@ -67,23 +74,32 @@ h4{
     column-gap: 50px;
     padding: 2px;
     padding-bottom: 10px;
+    margin-bottom: 35px;
 }
 
 .plain{
     text-decoration: none;
     color: chocolate;
+    font-weight: bold;
+    margin-bottom: 200px;
+    text-align: left;
 }
 
 #scroll {
     height: 450px;
     overflow: auto;
-    border: 1px solid darkorange;
-    margin-top: 15px;
+    border: 2px solid darkorange;
     margin-bottom: 15px;
+    margin-top: 35px;
 }
 
 .centerImage{
     text-align: center;
+}
+
+.leftImage{
+    float: left;
+    margin-right: 10px;
 }
 
 .textCenter{
@@ -96,15 +112,16 @@ h4{
 
 .videoContent {
     float: left;
-    width: 49%;
-    text-align: center;
+    width: 48%;
+    text-align: left;
     height: 700px;
+    margin-left: 20px;
+
 }
 
 .contentRight {
     float: right;
-    width: 49%;
-    text-align: left;
+    width: 48%;
     height: 700px;
 }
 
@@ -118,11 +135,16 @@ h4{
 .applicationForm{
     background-color: white;
     margin-top: 15px;
-    margin-left: 250px;
-    margin-right: 250px;
-    padding: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 20%;
+    padding-left: 20%;
     border: solid darkorange;
     min-height: 500px;
+    text-align: center;
 }
 
 .required{
@@ -156,11 +178,10 @@ input[type="radio"] {
     width: 8em;
     background-color: darkorange;
     border: 2px solid cornflowerblue;
+    margin-right: 45%;
+    margin-left: 45%;
 }
 
-#button{
-    margin-left: 200px;
-}
 
 .map {
     float: left;
@@ -168,145 +189,177 @@ input[type="radio"] {
     text-align: center;
     background-color: white;
     margin-top: 15px;
-    margin-bottom: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 1px;
     border: solid darkorange;
-    height: 661.5px;
-   
+    height: 862px;
 }
 
 .address {
     background-color: white;
     margin-top: 15px;
     margin-right: 5px;
-    margin-bottom: 5px;
     border: solid darkorange;
     float: right;
     width: 49%;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .openingHours {
     background-color: white;
     margin-right: 5px;
-    margin-bottom: 5px;
     border: solid darkorange;
     float: right;
     width: 49%;
-    text-align: left;
-}
-
-
-
-
-
-/*#content{
-    float: left;
-    width: 80%;
-    border: 1px solid pink;
-    text-align: justify;
-}
-
-#bigPic {
-    height: 700px;
-    width: 100%
-}
-
-#scroll {
-    height: 500px;
-    overflow: auto;
-}
-
-.white
-{
-    color: white;
     text-align: center;
+    margin-bottom: 15px;
 }
 
-aside{
-    width: 19.7%;
+.projectMessage{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+
+
+}
+
+aside {
+    width: 20%;
     float: right;
     color: white;
-    border: 1px solid red;
+    border: 2px solid darkorange;
+    background-color: lightskyblue;
+    padding-right: 10px;
+    margin-top: 48px;
 }
 
-aside ul li{
-    list-style-type: none;
-}
-
-aside ul li a{
-    color: blue;
+aside ol li {
+    
+    color: black;
     text-decoration: none;
+    margin-bottom: 5px;
 }
 
-.textLeft{
-    color: white;
+.animalCategories {
+    color: black;
+    
+}
+
+.rehoming {
+    border: 2px solid darkorange;
+    background-color: white;
+    float: left;
+    width: 38%;
     text-align: left;
-
-
-}
-
-.image {
-    float: left;
-    padding-right: 5px;
-}
-
-h3{
-    color: white;
-}
-
-
-
-p{
-    color: white;
-}
-
-.centered {
-    color: white;
-    text-align: center;
-    border: 1px solid purple;
-}
-
-.videoContent {
-    float: left;
-    width: 49.5%;
-    border: 1px solid gold;
-    text-align: center;
     height: 500px;
+    margin-bottom: 15px;
+    margin-right: 5px;
 }
 
-.black{
-    color: black;
-}
-
-.bacon {
-    background-image: url(../images/bacon.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
+.storyLeft {
+    
+    border: 2px solid darkorange;
+    background-color: white;
     text-align: left;
-    border: 1px solid purple;
+    height: 350px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-.carrots {
-    background-image: url(../images/carrots.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
+.storyRight {
+    border: 2px solid darkorange;
+    background-color: white;
     text-align: left;
-    border: 1px solid purple;
+    height: 350px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 30px;
 }
 
-.eggs {
-    background-image: url(../images/eggs.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.rightImage {
+    float: right;
+    margin-left: 10px;
+}
+
+
+
+table{
+    width:80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 2px solid darkorange;
+    border-collapse: collapse;
+    font-size: medium;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+th, td {
+    border: 2px solid darkorange;
+    text-align: center;
+    padding: 8px;
+
+}
+
+.centerText{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.goToBottom{
+    text-align: center;
+    border: 2px solid darkorange;
     color: black;
-    text-align: left;
-    border: 1px solid purple;
-}*/
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 45%;
+    margin-left: 45%;
+    width: 180px;
+    height: 60px;
+    padding-top:15px;
+}
+
+.internalLink{
+    
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin-bottom: 200px;
+        text-align: left;
+    
+}
+
+.goToBottom:hover{
+    background-color: darkOrange;
+}
+
+.goToTop{
+    text-align: center;
+    border: 2px solid darkorange;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 45%;
+    margin-left: 45%;
+    width: 180px;
+    height: 60px;
+    padding-top:35px;
+}
+.goToTop:hover{
+    background-color: darkOrange;
+}
+
+.bold{
+    font-weight: bold;
+}
 
 footer {
     clear: both;
